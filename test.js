@@ -7,6 +7,7 @@
 const redirect = require('./');
 const http = require('http');
 const test = require('ava');
+const got = require('got');
 
 const before = test.before;
 const after = test.after;
