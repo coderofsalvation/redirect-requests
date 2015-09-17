@@ -1,4 +1,4 @@
-# redirect-requests
+# redirect-requests [![Circle CI](https://circleci.com/gh/vdemedes/redirect-requests.svg?style=svg)](https://circleci.com/gh/vdemedes/redirect-requests)
 
 Redirect requests transparently to other server.
 Useful for testing code, that sends requests to remote servers.
@@ -35,6 +35,8 @@ got('http://ghost.org/some/path', function (err, body) {
 
 
 ### Tests
+
+[![Circle CI](https://circleci.com/gh/vdemedes/redirect-requests.svg?style=svg)](https://circleci.com/gh/vdemedes/redirect-requests)
 
 ```
 $ make test
